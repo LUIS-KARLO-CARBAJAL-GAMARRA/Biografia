@@ -90,3 +90,58 @@ footer p{
     text-align: center; 
     color: #E8F1F2; 
 }
+
+a {
+    text-decoration: none; /* Quitar subrayado */
+    color: #425157; /* Color inicial */
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s; /* Transiciones suaves */
+  }
+  
+  a:hover {
+    color: #fff; /* Cambia el color del texto */
+    background-color: #247BA0; /* Fondo azul */
+    padding: 5px; /* Espaciado interno para el efecto */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  /* Contenedor de nombres */
+/* Contenedor para los botones con diseño de 3 columnas */
+.botones-contenedor {
+    display: grid; /* Activamos Grid */
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    gap: 20px; /* Espaciado entre botones */
+    padding: 20px; /* Margen interno alrededor del grupo de botones */
+    margin-left: 150px; /* Margen izquierdo para que no esté pegado al borde */
+}
+
+.enlace-contenedor a {
+    display: inline-block; /* Botón individual */
+    padding: 15px 20px; /* Tamaño del botón */
+    font-size: 18px; /* Texto más grande */
+    border: 3px solid #425157; /* Bordes visibles */
+    border-radius: 12px; /* Bordes redondeados */
+    background-color: #E8F1F2; /* Fondo claro */
+    text-align: center; /* Centrar texto */
+    transition: all 0.3s ease; /* Transiciones suaves */
+}
+
+.enlace-contenedor a:hover {
+    border-color: #fff; /* Cambiar color del borde al pasar */
+    background-color: #425157; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+
+  
+  
+  
+  h3 {
+    color: #045476; /* Color diferente */
+    font-size: 24px; /* Tamaño más pequeño que h2 */
+    margin-bottom: 15px; /* Espaciado inferior */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    text-align: center; /* Centrar el texto */
+    border-bottom: 2px solid #425157; /* Línea decorativa debajo */
+    padding-bottom: 5px; /* Espaciado interno inferior */
+  }
