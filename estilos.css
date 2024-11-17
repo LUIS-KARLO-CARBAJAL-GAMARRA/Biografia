@@ -21,7 +21,8 @@ header{
 } 
  
 body{ 
-    font-family: 'Fira Sans Condensed', sans-serif; 
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
 } 
  
 main .perfil{ 
